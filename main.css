@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul, li{
+    list-style: none;
+}
+.wrapper{
+    padding: 20px;
+    display: flex;
+    margin-top: 30px;
+}
+
+.contact-form-side{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.form-contact{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-list-side {
+display: flex;
+width: 100%;
+}
+
+.contact-list-side ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    border-color: 3px solid azure;
+}
+
+.list-item{
+    border-color: 3px solid rgb(6, 231, 231);
+}
+
